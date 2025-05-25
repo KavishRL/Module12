@@ -31,8 +31,28 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+```
+queue = []
+queue.append('a')
+queue.append('b')
+queue.append('c')
+print("Queue after elements are inserted:")
+print(queue)
+deleted_element = queue.pop(0)
+print("Deleting the first element inserted:")
+print(deleted_element)
+print("Queue after the first element is deleted:")
+print(queue)
+```
 
 ## Output
-
+```
+Queue after elements are inserted:
+['a', 'b', 'c']
+Deleting the first element inserted:
+a
+Queue after the first element is deleted:
+['b', 'c']
+```
 ## Result
+Hence performed functions on queue.
